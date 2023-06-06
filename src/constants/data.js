@@ -9,10 +9,11 @@ const userData = {
     projects: [],
     about: {
       title:
-        "I'm a Senior software developer at thinkbridge",
+        "I'm a Senior Software Engineer at",
       description: [],
-      currentProject: "Tailwind Master Kit",
-      currentProjectUrl: "https://tailwindmasterkit.com",
+      currentProject: "Freeder",
+      currentProjectUrl: "https://github.com/slitheringblob",
+      companyURL: "https://thinkbridge.com/",
     },
     experience: [
       {
@@ -59,11 +60,11 @@ const userData = {
       },
     ],
     resumeUrl:
-      "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+      "",
     socialLinks: {
       instagram: "https://instagram.com/jaydeep.11",
       twitter: "https://twitter.com/jaydeepganatra",
-      linkedin: "https://linkedin.com/in/jaydeepganatra",
+      linkedin: "https://www.linkedin.com/in/jaydeep-ganatra/",
       github: "https://github.com/slitheringblob",
     },
   };
