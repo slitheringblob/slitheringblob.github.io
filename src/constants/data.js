@@ -6,7 +6,32 @@ const userData = {
     email: "ganatrajaydeep.work@gmail.com",
     phone: "+91 9408657603",
     address: "Surat, Gujarat, India.",
-    projects: [],
+    projects: [{
+      title: "Tache",
+      link: "https://github.com/slitheringblob/tache",
+      imgUrl: "/to-do.png",
+      },
+      {
+        title: "Identicon",
+        link: "https://github.com/slitheringblob/identicon",
+        imgUrl: "/identicon.png",
+      },
+      {
+        title: "ReactCalc",
+        link: "https://github.com/slitheringblob/reactcalc",
+        imgUrl: "/reactcalc.jpg",
+      },
+      {
+        title: "Portfolio",
+        link: "https://github.com/slitheringblob/tache",
+        imgUrl: "/portfolio.png",
+      },
+      {
+        title: "Shopbridge",
+        link: "https://github.com/slitheringblob/shopbridge-api",
+        imgUrl: "/shopbridge.jpg",
+      },
+    ],
     about: {
       title:
         "I'm a Senior Software Engineer at",
@@ -52,18 +77,18 @@ const userData = {
         desc: "Started my professional career as a technical analyst with the Software Engineering Centre of Excellence at India's largest private bank.",
       },
       {
-        title: "Internship",
-        company: "OMIFCO SAOC.",
-        year: "2019",
-        companyLink: "https://www.omifco.com/",
-        desc: "Worked as a DBA shadow. Implemented stored procedures and process automation for daily data backups.",
-      },
-      {
         title: "Graduation",
         company: "NMIMS, Mumbai.",
         year: "2019",
         companyLink: "https://engineering.nmims.edu/",
         desc: "Bachelors in Computer Science and Engineering.",
+      },
+      {
+        title: "Internship",
+        company: "OMIFCO SAOC.",
+        year: "2017",
+        companyLink: "https://www.omifco.com/",
+        desc: "Worked as a DBA shadow. Implemented stored procedures and process automation for daily data backups.",
       },
       {
         title: "High School",
