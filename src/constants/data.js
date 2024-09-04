@@ -3,7 +3,7 @@ const userData = {
     name: "Jaydeep Ganatra",
     designation: "Full-Stack Developer",
     avatarUrl: "/avatar.jpg",
-    email: "ganatrajaydeep.work@gmail.com",
+    email: "work@jaydeepganatra.dev",
     phone: "+91 9408657603",
     address: "Surat, Gujarat, India.",
     projects: [{
@@ -41,6 +41,13 @@ const userData = {
       companyURL: "https://thinkbridge.com/",
     },
     experience: [
+      {
+        title: "Senior Software Engineer",
+        company: "thinkbridge",
+        year: "2024",
+        companyLink: "https://thinkbridge.com",
+        desc: "Worked as a Machine Learning Fellow to build an engine capable of Dense Retrival for Code for multiple languages. ",
+      },
       {
         title: "Senior Software Engineer",
         company: "thinkbridge",
@@ -85,7 +92,7 @@ const userData = {
       },
       {
         title: "Internship",
-        company: "OMIFCO SAOC.",
+        company: "OMIFCO SAOC., Sur, Oman",
         year: "2017",
         companyLink: "https://www.omifco.com/",
         desc: "Worked as a DBA shadow. Implemented stored procedures and process automation for daily data backups.",
