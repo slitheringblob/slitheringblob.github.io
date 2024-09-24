@@ -50,12 +50,13 @@ export default function About(){
                   Job Opportunities
                 </h1>
                 <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                  I'm not looking for a job currently but If you see me as a good fit,
+                  I'm looking for a job currently and if you see me as a good fit,
                   check my{" "}
                   <a
                     href={userData.resumeUrl}
                     target="__blank"
                     className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                    download="JaydeepGanatraResume.pdf"
                   >
                     CV
                   </a>{" "}
