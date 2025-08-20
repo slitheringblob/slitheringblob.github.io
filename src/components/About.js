@@ -56,7 +56,7 @@ export default function About(){
                     href={userData.resumeUrl}
                     target="__blank"
                     className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                    download="JaydeepGanatraResume.pdf"
+                    download="JGResumeAugust2025.pdf"
                   >
                     CV
                   </a>{" "}

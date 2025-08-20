@@ -106,7 +106,7 @@ const userData = {
       },
     ],
     resumeUrl:
-      "/JaydeepGanatraResume.pdf",
+      "/JGResumeAugust2025.pdf",
     socialLinks: {
       instagram: "https://instagram.com/jaydeep.11",
       twitter: "https://twitter.com/jaydeepganatra",
