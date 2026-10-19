@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-col gap-1">
             <Link href="/" className="group inline-flex w-fit items-center gap-3">
-              <div className="relative h-11 w-11 overflow-hidden rounded-full border border-[var(--border)] bg-[var(--surface-muted)]">
+              <div className="relative h-11 w-11 overflow-hidden rounded-full border border-[var(--bdr)] bg-[var(--surface-2)]">
                 <Image
                   src={userData.avatarUrl}
                   alt={userData.name}
@@ -40,10 +40,10 @@ export default function Navbar() {
                 />
               </div>
               <div>
-                <h1 className="text-2xl md:text-3xl text-[var(--text)]">
-                  {userData.name}
+                <h1 className="text-xl md:text-2xl text-[var(--txt)]">
+                  {userData.name}<span className="cursor" aria-hidden="true"></span>
                 </h1>
-                <p className="max-w-md text-sm md:text-base">{userData.roleSummary}</p>
+                <p className="max-w-md text-xs md:text-sm">{userData.roleSummary}</p>
               </div>
             </Link>
           </div>
@@ -57,11 +57,7 @@ export default function Navbar() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`rounded-full px-4 py-2 text-sm transition duration-300 ${
-                      isActive
-                        ? "bg-[var(--text)] text-[var(--background)]"
-                        : "border border-[var(--border)] text-[var(--text)] hover:bg-[var(--surface-muted)]"
-                    }`}
+                    className={`nav-pill ${isActive ? "is-active" : ""}`}
                   >
                     {item.label}
                   </Link>
@@ -69,12 +65,12 @@ export default function Navbar() {
               })}
             </nav>
 
-            <div className="flex flex-wrap items-center gap-3 text-sm">
+            <div className="flex flex-wrap items-center gap-3 text-xs">
               <a
                 href={userData.socialLinks.github}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 text-[var(--text-muted)] transition hover:text-[var(--text)]"
+                className="inline-flex items-center gap-2 text-[var(--txt-2)] transition hover:text-[var(--violet)]"
               >
                 GitHub <FiArrowUpRight />
               </a>
@@ -82,7 +78,7 @@ export default function Navbar() {
                 href={userData.socialLinks.linkedin}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 text-[var(--text-muted)] transition hover:text-[var(--text)]"
+                className="inline-flex items-center gap-2 text-[var(--txt-2)] transition hover:text-[var(--blue)]"
               >
                 LinkedIn <FiArrowUpRight />
               </a>
@@ -90,7 +86,7 @@ export default function Navbar() {
                 type="button"
                 aria-label="Toggle theme"
                 onClick={() => setTheme(isDark ? "light" : "dark")}
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] text-[var(--text)] transition hover:bg-[var(--surface-muted)]"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[var(--bdr)] text-[var(--amber)] transition hover:bg-[var(--amber-wash)]"
               >
                 {mounted && isDark ? <FiSun /> : <FiMoon />}
               </button>

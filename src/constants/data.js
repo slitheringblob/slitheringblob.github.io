@@ -41,7 +41,7 @@ const userData = {
       summary:
         "A pure and opinionated RSS feed reader built with HTML, CSS, Tailwind, and FastAPI.",
       stack: ["HTML", "CSS", "Tailwind CSS", "FastAPI"],
-      accent: "var(--accent-red)",
+      accent: "var(--orange)",
     },
     {
       title: "Nosk",
@@ -52,7 +52,7 @@ const userData = {
       summary:
         "A note-taking app in progress, designed to sync cleanly across your devices.",
       stack: ["Notes", "Sync", "Product"],
-      accent: "var(--accent-blue)",
+      accent: "var(--blue)",
     },
     {
       title: "Tache",
@@ -63,7 +63,7 @@ const userData = {
       summary:
         "A lightweight task manager built around quick capture, simple organization, and minimal friction.",
       stack: ["React", "Firebase", "CSS"],
-      accent: "var(--accent-red)",
+      accent: "var(--green)",
     },
     {
       title: "Identicon",
@@ -74,7 +74,7 @@ const userData = {
       summary:
         "A deterministic avatar generator that turns text input into consistent geometric identities.",
       stack: ["Elixir", "Phoenix"],
-      accent: "var(--accent-blue)",
+      accent: "var(--violet)",
     },
     {
       title: "ReactCalc",
@@ -85,7 +85,7 @@ const userData = {
       summary:
         "A small UI build used to work through state management, interaction details, and component structure.",
       stack: ["React", "JavaScript"],
-      accent: "var(--accent-gold)",
+      accent: "var(--cyan)",
     },
     {
       title: "Ezrag",
@@ -96,7 +96,7 @@ const userData = {
       summary:
         "A lightweight RAG system built with Streamlit, ChromaDB, and Hugging Face sentence transformers.",
       stack: ["Python", "Streamlit", "ChromaDB", "Sentence Transformers"],
-      accent: "var(--accent-blue)",
+      accent: "var(--rose)",
     },
     {
       title: "Portfolio",
@@ -107,7 +107,7 @@ const userData = {
       summary:
         "This portfolio, rebuilt to present projects and technical focus with a cleaner structure and stronger visual voice.",
       stack: ["Next.js", "Tailwind CSS"],
-      accent: "var(--accent-green)",
+      accent: "var(--amber)",
     },
     {
       title: "Shopbridge",
@@ -118,7 +118,7 @@ const userData = {
       summary:
         "A commerce API project centered on service boundaries, persistence, and straightforward backend design.",
       stack: ["Python", "MySQL", "REST"],
-      accent: "var(--accent-red)",
+      accent: "var(--blue)",
     },
   ],
   stack: [
