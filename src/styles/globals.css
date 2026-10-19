@@ -31,7 +31,7 @@
   --green: #9ece6a;
   --rose: #f7768e;
   --orange: #ff9e64;
-  --grid: #c0caf514;
+  --ring: #e4e8f72e;
   --nav-bg: #0b0c12d9;
   --glow-opacity: .7;
   --shadow-float: 0 60px 140px -60px #000000f2;
@@ -50,7 +50,7 @@
   --txt: #0b0d14; --txt-2: #454c5e; --txt-3: #686f82; --txt-4: #b3b9c6;
   --amber: #b45309; --amber-wash: #b453090f; --amber-line: #b4530959; --amber-glow: #b4530938;
   --blue: #0969da; --cyan: #0550ae; --violet: #8250df; --green: #116329; --rose: #cf222e; --orange: #953800;
-  --grid: #0b0d1414; --nav-bg: #ffffffd9; --glow-opacity: .5;
+  --ring: #0b0d1424; --nav-bg: #ffffffd9; --glow-opacity: .5;
   --shadow-float: 0 50px 100px -50px #0b0d1459;
   color-scheme: light;
 }
@@ -132,9 +132,9 @@
   }
 
   .page-shell::after {
-    background-image: repeating-radial-gradient(circle at 50% 50%, transparent 0 39px, var(--grid) 39.5px 40px);
-    mask-image: radial-gradient(circle at 50% 50%, #000 10%, transparent 72%);
-    -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 10%, transparent 72%);
+    background-image: repeating-radial-gradient(circle at 50% 50%, transparent 0 38px, var(--ring) 38.5px 40px);
+    mask-image: radial-gradient(circle at 50% 50%, #000 15%, transparent 80%);
+    -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 15%, transparent 80%);
   }
 
   .editorial-wrap {
