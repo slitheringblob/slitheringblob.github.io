@@ -11,10 +11,10 @@ export default function Footer() {
           <p className="section-kicker">Open for thoughtful work</p>
         </div>
 
-        <div className="flex flex-col gap-3 text-sm md:items-end">
+        <div className="flex flex-col gap-3 text-xs md:items-end">
           <a
             href={`mailto:${userData.email}`}
-            className="inline-flex items-center gap-2 text-[var(--text)] transition hover:text-[var(--accent-red)]"
+            className="inline-flex items-center gap-2 text-[var(--txt)] transition hover:text-[var(--rose)]"
           >
             {userData.email} <FiArrowUpRight />
           </a>
@@ -22,11 +22,11 @@ export default function Footer() {
             href={userData.resumeUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 text-[var(--text)] transition hover:text-[var(--accent-blue)]"
+            className="inline-flex items-center gap-2 text-[var(--txt)] transition hover:text-[var(--blue)]"
           >
             Resume <FiArrowUpRight />
           </a>
-          <p className="text-[var(--text-muted)]">
+          <p className="text-[var(--txt-2)]">
             © {new Date().getFullYear()} {userData.name}
           </p>
         </div>
